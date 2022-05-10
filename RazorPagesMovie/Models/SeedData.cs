@@ -25,33 +25,41 @@ namespace RazorPagesMovie.Models
                 context.Movie.AddRange(
                     new Movie
                     {
-                        Title = "When Harry Met Sally",
-                        ReleaseDate = DateTime.Parse("1989-2-12"),
-                        Genre = "Romantic Comedy",
+                        Title = "Spider-Man 2",
+                        ReleaseDate = DateTime.Parse("2004-6-25"),
+                        Genre = "Action",
                         Price = 7.99M
                     },
 
                     new Movie
                     {
-                        Title = "Ghostbusters ",
-                        ReleaseDate = DateTime.Parse("1984-3-13"),
-                        Genre = "Comedy",
+                        Title = "Spider-Man: No Way Home",
+                        ReleaseDate = DateTime.Parse("2021-12-17"),
+                        Genre = "Action",
                         Price = 8.99M
                     },
 
                     new Movie
                     {
-                        Title = "Ghostbusters 2",
-                        ReleaseDate = DateTime.Parse("1986-2-23"),
-                        Genre = "Comedy",
+                        Title = "The Batman",
+                        ReleaseDate = DateTime.Parse("2022-3-4"),
+                        Genre = "Action",
                         Price = 9.99M
                     },
 
                     new Movie
                     {
-                        Title = "Rio Bravo",
-                        ReleaseDate = DateTime.Parse("1959-4-15"),
-                        Genre = "Western",
+                        Title = "Lone Survivor",
+                        ReleaseDate = DateTime.Parse("2014-1-10"),
+                        Genre = "Action",
+                        Price = 3.99M
+                    }, 
+                    
+                    new Movie
+                    {
+                        Title = "Father Stu",
+                        ReleaseDate = DateTime.Parse("2022-4-15"),
+                        Genre = "Biography",
                         Price = 3.99M
                     }
                 );
