@@ -61,6 +61,14 @@ namespace RazorPagesMovie.Models
                         ReleaseDate = DateTime.Parse("2022-4-15"),
                         Genre = "Biography",
                         Rating = "R"
+                    },
+
+                    new Movie
+                    {
+                        Title = "Interstellar",
+                        ReleaseDate = DateTime.Parse("2014-11-7"),
+                        Genre = "Adventure",
+                        Rating = "PG-13"
                     }
                 );
                 context.SaveChanges();
